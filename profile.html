@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>My Profile | KEYRADDIIN EXAM CENTER</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+
+        /* =================================================
+           PROFILE PAGE
+           ================================================= */
+
+        .profile-page {
+            min-height: calc(100vh - 145px);
+
+            padding: 50px 0 70px;
+
+            background: #f5f8fc;
+        }
+
+
+        /* ---------- Profile Header ---------- */
+
+        .profile-header-card {
+            max-width: 900px;
+
+            margin: 0 auto 22px;
+
+            padding: 30px;
+
+            background: #ffffff;
+
+            border: 1px solid #e2e8f0;
+
+            border-radius: 18px;
+
+            box-shadow:
+                0 12px 32px rgba(15, 35, 70, 0.06);
+        }
+
+
+        .profile-title {
+            display: flex;
+
+            align-items: center;
+
+            gap: 16px;
+        }
+
+
+        .profile-avatar {
+            width: 58px;
+            height: 58px;
+
+            display: flex;
+
+            align-items: center;
+            justify-content: center;
+
+            background: #eaf2ff;
+
+            border-radius: 15px;
+
+            font-size: 27px;
+        }
+
+
+        .profile-title h1 {
+            color: #14213d;
+
+            font-size: 28px;
+
+            line-height: 1.2;
+        }
+
+
+        .profile-title p {
+            margin-top: 4px;
+
+            color: #64748b;
+
+            font-size: 13px;
+        }
+
+
+        /* ---------- Student Information ---------- */
+
+        .profile-info {
+            max-width: 900px;
+
+            margin: 0 auto 22px;
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(2, 1fr);
+
+            gap: 14px;
+        }
+
+
+        .info-card {
+            padding: 20px;
+
+            background: #ffffff;
+
+            border: 1px solid #e2e8f0;
+
+            border-radius: 14px;
+
+            box-shadow:
+                0 8px 25px rgba(15, 35, 70, 0.04);
+        }
+
+
+        .info-card span {
+            display: block;
+
+            color: #64748b;
+
+            font-size: 10px;
+
+            font-weight: 800;
+
+            letter-spacing: 0.8px;
+        }
+
+
+        .info-card strong {
+            display: block;
+
+            margin-top: 5px;
+
+            color: #172033;
+
+            font-size: 16px;
+
+            word-break: break-word;
+        }
+
+
+        /* ---------- Exam History ---------- */
+
+        .history-card {
+            max-width: 900px;
+
+            margin: 0 auto;
+
+            padding: 28px;
+
+            background: #ffffff;
+
+            border: 1px solid #e2e8f0;
+
+            border-radius: 18px;
+
+            box-shadow:
+                0 12px 32px rgba(15, 35, 70, 0.06);
+        }
+
+
+        .history-card h2 {
+            color: #14213d;
+
+            font-size: 22px;
+
+            margin-bottom: 20px;
+        }
+
+
+        .history-list {
+            display: grid;
+
+            gap: 10px;
+        }
+
+
+        .history-item {
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+            gap: 15px;
+
+            padding: 15px;
+
+            background: #f8fafc;
+
+            border: 1px solid #e7edf5;
+
+            border-radius: 11px;
+
+            transition:
+                transform 0.2s ease,
+                border-color 0.2s ease;
+        }
+
+
+        .history-item:hover {
+            transform: translateY(-2px);
+
+            border-color: #cbd8ea;
+        }
+
+
+        .history-main {
+            min-width: 0;
+        }
+
+
+        .history-main strong {
+            display: block;
+
+            color: #172033;
+
+            font-size: 14px;
+
+            word-break: break-word;
+        }
+
+
+        .history-main span {
+            display: block;
+
+            margin-top: 3px;
+
+            color: #64748b;
+
+            font-size: 11px;
+        }
+
+
+        .history-score {
+            flex: 0 0 auto;
+
+            text-align: right;
+        }
+
+
+        .history-score strong {
+            display: block;
+
+            color: #0b3d91;
+
+            font-size: 18px;
+        }
+
+
+        .history-score span {
+            font-size: 10px;
+
+            font-weight: 800;
+
+            letter-spacing: 0.5px;
+        }
+
+
+        .history-score .pass {
+            color: #15803d;
+        }
+
+
+        .history-score .fail {
+            color: #b91c1c;
+        }
+
+
+        /* ---------- Empty History ---------- */
+
+        .empty-history {
+            padding: 30px;
+
+            background: #f8fafc;
+
+            border: 1px dashed #d7e0eb;
+
+            border-radius: 12px;
+
+            color: #64748b;
+
+            text-align: center;
+
+            font-size: 13px;
+        }
+
+
+        /* ---------- Mobile ---------- */
+
+        @media (max-width: 600px) {
+
+            .profile-page {
+                padding: 30px 0 50px;
+            }
+
+
+            .profile-header-card {
+                padding: 23px 18px;
+
+                border-radius: 16px;
+            }
+
+
+            .profile-title {
+                gap: 12px;
+            }
+
+
+            .profile-avatar {
+                width: 50px;
+                height: 50px;
+
+                font-size: 23px;
+            }
+
+
+            .profile-title h1 {
+                font-size: 23px;
+            }
+
+
+            .profile-title p {
+                font-size: 11px;
+            }
+
+
+            .profile-info {
+                grid-template-columns: 1fr;
+            }
+
+
+            .history-card {
+                padding: 20px 15px;
+
+                border-radius: 16px;
+            }
+
+
+            .history-card h2 {
+                font-size: 20px;
+            }
+
+
+            .history-item {
+                align-items: flex-start;
+
+                padding: 13px;
+            }
+
+
+            .history-main strong {
+                font-size: 12px;
+            }
+
+
+            .history-score strong {
+                font-size: 16px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+     ===================================================== -->
+
+<header class="site-header">
+
+    <div class="container header-content">
+
+
+        <a
+            href="index.html"
+            class="brand"
+        >
+
+            <span class="brand-icon">
+                🎓
+            </span>
+
+
+            <span class="brand-text">
+
+                <strong>
+                    KEYRADDIIN EXAM CENTER
+                </strong>
+
+
+                <small>
+                    SECOND BRANCH
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a
+            href="index.html"
+            class="profile-link"
+        >
+            HOME
+        </a>
+
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     MAIN
+     ===================================================== -->
+
+<main class="profile-page">
+
+    <div class="container">
+
+
+        <!-- Profile Header -->
+
+        <section class="profile-header-card">
+
+            <div class="profile-title">
+
+
+                <div class="profile-avatar">
+                    👤
+                </div>
+
+
+                <div>
+
+                    <h1>
+                        My Profile
+                    </h1>
+
+
+                    <p>
+                        Your examination information
+                        and history
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- Student Information -->
+
+        <section class="profile-info">
+
+
+            <div class="info-card">
+
+                <span>
+                    FULL NAME
+                </span>
+
+
+                <strong id="profileName">
+                    -
+                </strong>
+
+            </div>
+
+
+
+            <div class="info-card">
+
+                <span>
+                    GRADE
+                </span>
+
+
+                <strong id="profileGrade">
+                    -
+                </strong>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- Exam History -->
+
+        <section class="history-card">
+
+
+            <h2>
+                Exam History
+            </h2>
+
+
+            <div
+                id="historyList"
+                class="history-list"
+            >
+
+                <!-- History loaded by profile.js -->
+
+            </div>
+
+
+        </section>
+
+
+    </div>
+
+</main>
+
+
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+
+<footer class="site-footer">
+
+    <div class="container">
+
+        <p>
+            © 2026 KEYRADDIIN EXAM CENTER SECOND BRANCH
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+<script src="js/profile.js"></script>
+
+
+</body>
+</html>

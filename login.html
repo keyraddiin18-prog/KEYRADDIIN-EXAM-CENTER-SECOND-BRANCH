@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Start Exam | KEYRADDIIN EXAM CENTER</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="container header-content">
+
+        <a href="index.html" class="brand">
+            <span class="brand-icon">🎓</span>
+
+            <span class="brand-text">
+                <strong>KEYRADDIIN EXAM CENTER</strong>
+                <small>SECOND BRANCH</small>
+            </span>
+        </a>
+
+        <a href="index.html" class="profile-link">
+            HOME
+        </a>
+
+    </div>
+</header>
+
+
+<main class="login-page">
+
+    <div class="container">
+
+        <section class="login-card">
+
+            <div class="login-header">
+
+                <div class="login-icon">
+                    🔐
+                </div>
+
+                <span class="section-label">
+                    EXAM ACCESS
+                </span>
+
+                <h1>
+                    Start Your Exam
+                </h1>
+
+                <p>
+                    Enter your information and unique Exam Code
+                    to access your examination.
+                </p>
+
+            </div>
+
+
+            <form id="loginForm" class="login-form">
+
+                <div class="form-group">
+
+                    <label for="fullName">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="fullName"
+                        name="fullName"
+                        placeholder="Enter your full name"
+                        autocomplete="name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="grade">
+                        Grade
+                    </label>
+
+                    <select
+                        id="grade"
+                        name="grade"
+                        required
+                    >
+                        <option value="">
+                            Select Grade
+                        </option>
+
+                        <option value="7">
+                            Grade 7
+                        </option>
+
+                        <option value="8">
+                            Grade 8
+                        </option>
+
+                        <option value="9">
+                            Grade 9
+                        </option>
+
+                        <option value="10">
+                            Grade 10
+                        </option>
+
+                        <option value="11">
+                            Grade 11
+                        </option>
+
+                        <option value="12">
+                            Grade 12
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="examCode">
+                        Exam Code
+                    </label>
+
+                    <input
+                        type="text"
+                        id="examCode"
+                        name="examCode"
+                        placeholder="Example: G9-BIO-U1-2026"
+                        autocomplete="off"
+                        autocapitalize="characters"
+                        required
+                    >
+
+                    <small>
+                        Enter the Exam Code provided to you.
+                    </small>
+
+                </div>
+
+
+                <div
+                    id="loginError"
+                    class="form-message error-message"
+                    role="alert"
+                ></div>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-primary login-button"
+                >
+                    START EXAM
+                </button>
+
+            </form>
+
+
+            <div class="login-help">
+
+                <span>Need help?</span>
+
+                <a href="how-to-use.html">
+                    HOW TO USE EXAM CODE
+                </a>
+
+            </div>
+
+        </section>
+
+    </div>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="container">
+
+        <p>
+            © 2026 KEYRADDIIN EXAM CENTER SECOND BRANCH
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

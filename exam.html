@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Exam | KEYRADDIIN EXAM CENTER</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/exam.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="container header-content">
+
+        <a href="index.html" class="brand">
+
+            <span class="brand-icon">
+                🎓
+            </span>
+
+            <span class="brand-text">
+                <strong>
+                    KEYRADDIIN EXAM CENTER
+                </strong>
+
+                <small>
+                    SECOND BRANCH
+                </small>
+            </span>
+
+        </a>
+
+        <div class="exam-status">
+            EXAM IN PROGRESS
+        </div>
+
+    </div>
+
+</header>
+
+
+<main class="exam-page">
+
+    <div class="container">
+
+        <section class="exam-wrapper">
+
+            <div class="exam-topbar">
+
+                <div class="exam-information">
+
+                    <span id="examSubject">
+                        Examination
+                    </span>
+
+                    <strong id="examTitle">
+                        Loading Exam...
+                    </strong>
+
+                    <small id="examCodeDisplay">
+                        Exam Code
+                    </small>
+
+                </div>
+
+
+                <div class="timer-box">
+
+                    <span>
+                        TIME LEFT
+                    </span>
+
+                    <strong id="timer">
+                        --:--
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="progress-area">
+
+                <div class="progress-text">
+
+                    <span>
+                        Question
+                    </span>
+
+                    <strong>
+                        <span id="currentQuestion">
+                            1
+                        </span>
+                        /
+                        <span id="totalQuestions">
+                            0
+                        </span>
+                    </strong>
+
+                </div>
+
+                <div class="progress-bar">
+
+                    <div
+                        id="progressFill"
+                        class="progress-fill"
+                    ></div>
+
+                </div>
+
+            </div>
+
+
+            <section class="question-card">
+
+                <div class="question-number">
+                    QUESTION
+                    <span id="questionNumber">
+                        1
+                    </span>
+                </div>
+
+
+                <h1 id="questionText">
+                    Loading question...
+                </h1>
+
+
+                <div
+                    id="optionsContainer"
+                    class="options-container"
+                >
+                </div>
+
+            </section>
+
+
+            <div class="exam-navigation">
+
+                <button
+                    id="previousBtn"
+                    class="nav-btn secondary-nav"
+                    type="button"
+                >
+                    ← PREVIOUS
+                </button>
+
+
+                <button
+                    id="nextBtn"
+                    class="nav-btn primary-nav"
+                    type="button"
+                >
+                    NEXT →
+                </button>
+
+
+                <button
+                    id="submitBtn"
+                    class="nav-btn submit-nav"
+                    type="button"
+                >
+                    SUBMIT EXAM
+                </button>
+
+            </div>
+
+
+            <div
+                id="examMessage"
+                class="exam-message"
+                role="alert"
+            ></div>
+
+        </section>
+
+    </div>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="container">
+
+        <p>
+            © 2026 KEYRADDIIN EXAM CENTER SECOND BRANCH
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="js/exam-engine.js"></script>
+
+</body>
+</html>

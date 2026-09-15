@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Ranking | KEYRADDIIN EXAM CENTER</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+
+        .ranking-page {
+            min-height: calc(100vh - 145px);
+            padding: 50px 0 70px;
+            background: #f5f8fc;
+        }
+
+        .ranking-card {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 30px;
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 18px;
+            box-shadow: 0 12px 32px rgba(15,35,70,0.06);
+        }
+
+        .ranking-header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .ranking-header .icon {
+            width: 62px;
+            height: 62px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px;
+            background: #fff7dd;
+            border-radius: 16px;
+            font-size: 28px;
+        }
+
+        .ranking-header h1 {
+            color: #14213d;
+            font-size: 30px;
+        }
+
+        .ranking-header p {
+            color: #64748b;
+            font-size: 13px;
+        }
+
+        .ranking-filter {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .ranking-filter input {
+            flex: 1;
+            padding: 13px;
+            border: 1px solid #d7e0eb;
+            border-radius: 10px;
+            outline: none;
+            font-family: inherit;
+        }
+
+        .ranking-filter input:focus {
+            border-color: #2563eb;
+        }
+
+        .ranking-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .ranking-table th {
+            padding: 13px 10px;
+            background: #f1f5f9;
+            color: #64748b;
+            font-size: 10px;
+            letter-spacing: .7px;
+            text-align: left;
+        }
+
+        .ranking-table td {
+            padding: 14px 10px;
+            border-bottom: 1px solid #edf1f6;
+            color: #334155;
+            font-size: 13px;
+        }
+
+        .rank-number {
+            font-weight: 900;
+            color: #0b3d91;
+        }
+
+        .student-name {
+            font-weight: 700;
+            color: #172033;
+        }
+
+        .ranking-score {
+            font-weight: 900;
+            color: #0b3d91;
+        }
+
+        .empty-ranking {
+            padding: 35px;
+            text-align: center;
+            color: #64748b;
+        }
+
+        @media (max-width:600px) {
+
+            .ranking-page {
+                padding: 30px 0 50px;
+            }
+
+            .ranking-card {
+                padding: 20px 12px;
+            }
+
+            .ranking-header h1 {
+                font-size: 25px;
+            }
+
+            .ranking-table th,
+            .ranking-table td {
+                padding: 11px 6px;
+                font-size: 11px;
+            }
+
+            .ranking-table th:nth-child(4),
+            .ranking-table td:nth-child(4) {
+                display: none;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<header class="site-header">
+
+    <div class="container header-content">
+
+        <a href="index.html" class="brand">
+
+            <span class="brand-icon">🎓</span>
+
+            <span class="brand-text">
+
+                <strong>
+                    KEYRADDIIN EXAM CENTER
+                </strong>
+
+                <small>
+                    SECOND BRANCH
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <a href="index.html" class="profile-link">
+            HOME
+        </a>
+
+    </div>
+
+</header>
+
+
+<main class="ranking-page">
+
+    <div class="container">
+
+        <section class="ranking-card">
+
+            <div class="ranking-header">
+
+                <div class="icon">
+                    🏆
+                </div>
+
+                <h1>
+                    Exam Ranking
+                </h1>
+
+                <p>
+                    Students are ranked by their examination score.
+                </p>
+
+            </div>
+
+
+            <div class="ranking-filter">
+
+                <input
+                    type="text"
+                    id="examCodeFilter"
+                    placeholder="Enter Exam Code"
+                    autocomplete="off"
+                >
+
+                <button
+                    id="rankingButton"
+                    class="btn btn-primary"
+                    type="button"
+                >
+                    VIEW
+                </button>
+
+            </div>
+
+
+            <div id="rankingContainer">
+
+                <div class="empty-ranking">
+                    Enter an Exam Code to view ranking.
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="container">
+
+        <p>
+            © 2026 KEYRADDIIN EXAM CENTER SECOND BRANCH
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="js/ranking.js"></script>
+
+</body>
+</html>
