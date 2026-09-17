@@ -10,7 +10,7 @@ const examData = {
     passMark: 50,
 
     questions: [
-        // SECTION A – GREETINGS
+
         {
             question: "Which of the following is a polite way to greet your teacher?",
             options: [
@@ -19,8 +19,9 @@ const examData = {
                 "What is this?",
                 "No, thanks."
             ],
-            correctAnswer: "A"
+            correctAnswer: "Good morning, Teacher."
         },
+
         {
             question: "Which sentence correctly answers the question \"What is your name?\"",
             options: [
@@ -29,8 +30,9 @@ const examData = {
                 "I am fine, thank you.",
                 "Good night."
             ],
-            correctAnswer: "B"
+            correctAnswer: "My name is Abebe."
         },
+
         {
             question: "Choose the correct response to the question \"How are you today?\"",
             options: [
@@ -39,8 +41,9 @@ const examData = {
                 "See you tomorrow.",
                 "It is a book."
             ],
-            correctAnswer: "A"
+            correctAnswer: "I am fine, thank you."
         },
+
         {
             question: "Which phrase is used to say goodbye politely?",
             options: [
@@ -49,8 +52,9 @@ const examData = {
                 "Goodbye, have a nice day!",
                 "How are you?"
             ],
-            correctAnswer: "C"
+            correctAnswer: "Goodbye, have a nice day!"
         },
+
         {
             question: "Which set of sentences correctly introduces a person?",
             options: [
@@ -59,10 +63,9 @@ const examData = {
                 "Monday, Tuesday, Wednesday, Thursday, Friday.",
                 "Red, Blue, Green, Yellow, White."
             ],
-            correctAnswer: "A"
+            correctAnswer: "My name is Almaz. I am 10 years old. I live in Hawassa. I am a student. I like reading."
         },
 
-        // SECTION B – NUMBERS
         {
             question: "What is the correct English spelling for the number 18?",
             options: [
@@ -71,8 +74,9 @@ const examData = {
                 "Eight",
                 "Eightynine"
             ],
-            correctAnswer: "B"
+            correctAnswer: "Eighteen"
         },
+
         {
             question: "What is the correct English spelling for the number 45?",
             options: [
@@ -81,8 +85,9 @@ const examData = {
                 "Forty-five",
                 "Fifty-four"
             ],
-            correctAnswer: "C"
+            correctAnswer: "Forty-five"
         },
+
         {
             question: "What is the correct English spelling for the number 99?",
             options: [
@@ -91,8 +96,9 @@ const examData = {
                 "Nine-nine",
                 "Eighty-nine"
             ],
-            correctAnswer: "A"
+            correctAnswer: "Ninety-nine"
         },
+
         {
             question: "Choose the correct response to \"How old are you?\"",
             options: [
@@ -101,8 +107,9 @@ const examData = {
                 "I am a student.",
                 "Today is Monday."
             ],
-            correctAnswer: "A"
+            correctAnswer: "I am ten years old."
         },
+
         {
             question: "How many months are there in a year?",
             options: [
@@ -111,10 +118,9 @@ const examData = {
                 "12",
                 "24"
             ],
-            correctAnswer: "C"
+            correctAnswer: "12"
         },
 
-        // SECTION C – DAYS & MONTHS
         {
             question: "Which list shows the days of the week in the correct order?",
             options: [
@@ -123,8 +129,9 @@ const examData = {
                 "January, February, March, April, May, June, July",
                 "Sunday, Monday, Friday, Saturday, Tuesday, Wednesday, Thursday"
             ],
-            correctAnswer: "A"
+            correctAnswer: "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"
         },
+
         {
             question: "Which list shows the first six months of the year in order?",
             options: [
@@ -133,8 +140,9 @@ const examData = {
                 "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday",
                 "March, April, May, June, July, August"
             ],
-            correctAnswer: "B"
+            correctAnswer: "January, February, March, April, May, June"
         },
+
         {
             question: "What day comes after Friday?",
             options: [
@@ -143,8 +151,9 @@ const examData = {
                 "Saturday",
                 "Monday"
             ],
-            correctAnswer: "C"
+            correctAnswer: "Saturday"
         },
+
         {
             question: "What month comes after December?",
             options: [
@@ -153,8 +162,9 @@ const examData = {
                 "February",
                 "October"
             ],
-            correctAnswer: "B"
+            correctAnswer: "January"
         },
+
         {
             question: "What month comes before March?",
             options: [
@@ -163,10 +173,9 @@ const examData = {
                 "January",
                 "May"
             ],
-            correctAnswer: "A"
+            correctAnswer: "February"
         },
 
-        // SECTION D – COLORS
         {
             question: "What color is the sky on a clear day?",
             options: [
@@ -175,8 +184,9 @@ const examData = {
                 "Red",
                 "Black"
             ],
-            correctAnswer: "B"
+            correctAnswer: "Blue"
         },
+
         {
             question: "What color is healthy grass?",
             options: [
@@ -185,8 +195,9 @@ const examData = {
                 "Green",
                 "Purple"
             ],
-            correctAnswer: "C"
+            correctAnswer: "Green"
         },
+
         {
             question: "What color is snow?",
             options: [
@@ -195,8 +206,9 @@ const examData = {
                 "Orange",
                 "Blue"
             ],
-            correctAnswer: "B"
+            correctAnswer: "White"
         },
+
         {
             question: "Which sentence correctly uses the word red?",
             options: [
@@ -205,8 +217,9 @@ const examData = {
                 "Red is a day of the week.",
                 "Red is my teacher."
             ],
-            correctAnswer: "B"
+            correctAnswer: "I have a red apple."
         },
+
         {
             question: "Which option contains five colors?",
             options: [
@@ -215,10 +228,9 @@ const examData = {
                 "One, Two, Three, Four, Five",
                 "Father, Mother, Brother, Sister, Baby"
             ],
-            correctAnswer: "B"
+            correctAnswer: "Red, Blue, Green, Yellow, White"
         },
 
-        // SECTION E – FAMILY & CLASSROOM OBJECTS
         {
             question: "What does the word Father mean in Afaan Oromoo?",
             options: [
@@ -227,8 +239,9 @@ const examData = {
                 "Obboleessa",
                 "Obboleettii"
             ],
-            correctAnswer: "B"
+            correctAnswer: "Abbaa"
         },
+
         {
             question: "What is the English translation of \"Maatii koo\"?",
             options: [
@@ -237,8 +250,9 @@ const examData = {
                 "My teacher",
                 "My house"
             ],
-            correctAnswer: "A"
+            correctAnswer: "My family"
         },
+
         {
             question: "Complete the sentence: \"This is a _______.\"",
             options: [
@@ -247,8 +261,9 @@ const examData = {
                 "books",
                 "pens"
             ],
-            correctAnswer: "B"
+            correctAnswer: "book"
         },
+
         {
             question: "Complete the sentence: \"These are _______.\"",
             options: [
@@ -257,8 +272,9 @@ const examData = {
                 "books",
                 "an eraser"
             ],
-            correctAnswer: "C"
+            correctAnswer: "books"
         },
+
         {
             question: "Which list contains five classroom objects?",
             options: [
@@ -267,7 +283,8 @@ const examData = {
                 "Red, Blue, Green, Yellow, Black",
                 "January, February, March, April, May"
             ],
-            correctAnswer: "A"
+            correctAnswer: "Pen, Pencil, Book, Desk, Eraser"
         }
+
     ]
 };
