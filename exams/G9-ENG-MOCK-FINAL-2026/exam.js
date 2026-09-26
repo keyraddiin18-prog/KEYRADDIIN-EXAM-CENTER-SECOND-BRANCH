@@ -10,7 +10,6 @@ const examData = {
     passMark: 50,
 
     questions: [
-
         {
             question: "Which of the following is a polite way to greet your teacher?",
             options: [
@@ -19,9 +18,8 @@ const examData = {
                 "What is this?",
                 "No, thanks."
             ],
-            correctAnswer: "Good morning, Teacher."
+            correctAnswer: "A"
         },
-
         {
             question: "Which sentence correctly answers the question \"What is your name?\"",
             options: [
@@ -30,9 +28,8 @@ const examData = {
                 "I am fine, thank you.",
                 "Good night."
             ],
-            correctAnswer: "My name is Abebe."
+            correctAnswer: "B"
         },
-
         {
             question: "Choose the correct response to the question \"How are you today?\"",
             options: [
@@ -41,9 +38,8 @@ const examData = {
                 "See you tomorrow.",
                 "It is a book."
             ],
-            correctAnswer: "I am fine, thank you."
+            correctAnswer: "A"
         },
-
         {
             question: "Which phrase is used to say goodbye politely?",
             options: [
@@ -52,9 +48,8 @@ const examData = {
                 "Goodbye, have a nice day!",
                 "How are you?"
             ],
-            correctAnswer: "Goodbye, have a nice day!"
+            correctAnswer: "C"
         },
-
         {
             question: "Which set of sentences correctly introduces a person?",
             options: [
@@ -63,9 +58,8 @@ const examData = {
                 "Monday, Tuesday, Wednesday, Thursday, Friday.",
                 "Red, Blue, Green, Yellow, White."
             ],
-            correctAnswer: "My name is Almaz. I am 10 years old. I live in Hawassa. I am a student. I like reading."
+            correctAnswer: "A"
         },
-
         {
             question: "What is the correct English spelling for the number 18?",
             options: [
@@ -74,9 +68,8 @@ const examData = {
                 "Eight",
                 "Eightynine"
             ],
-            correctAnswer: "Eighteen"
+            correctAnswer: "B"
         },
-
         {
             question: "What is the correct English spelling for the number 45?",
             options: [
@@ -85,9 +78,8 @@ const examData = {
                 "Forty-five",
                 "Fifty-four"
             ],
-            correctAnswer: "Forty-five"
+            correctAnswer: "C"
         },
-
         {
             question: "What is the correct English spelling for the number 99?",
             options: [
@@ -96,9 +88,8 @@ const examData = {
                 "Nine-nine",
                 "Eighty-nine"
             ],
-            correctAnswer: "Ninety-nine"
+            correctAnswer: "A"
         },
-
         {
             question: "Choose the correct response to \"How old are you?\"",
             options: [
@@ -107,9 +98,8 @@ const examData = {
                 "I am a student.",
                 "Today is Monday."
             ],
-            correctAnswer: "I am ten years old."
+            correctAnswer: "A"
         },
-
         {
             question: "How many months are there in a year?",
             options: [
@@ -118,9 +108,8 @@ const examData = {
                 "12",
                 "24"
             ],
-            correctAnswer: "12"
+            correctAnswer: "C"
         },
-
         {
             question: "Which list shows the days of the week in the correct order?",
             options: [
@@ -129,9 +118,8 @@ const examData = {
                 "January, February, March, April, May, June, July",
                 "Sunday, Monday, Friday, Saturday, Tuesday, Wednesday, Thursday"
             ],
-            correctAnswer: "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"
+            correctAnswer: "A"
         },
-
         {
             question: "Which list shows the first six months of the year in order?",
             options: [
@@ -140,9 +128,8 @@ const examData = {
                 "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday",
                 "March, April, May, June, July, August"
             ],
-            correctAnswer: "January, February, March, April, May, June"
+            correctAnswer: "B"
         },
-
         {
             question: "What day comes after Friday?",
             options: [
@@ -151,9 +138,8 @@ const examData = {
                 "Saturday",
                 "Monday"
             ],
-            correctAnswer: "Saturday"
+            correctAnswer: "C"
         },
-
         {
             question: "What month comes after December?",
             options: [
@@ -162,9 +148,8 @@ const examData = {
                 "February",
                 "October"
             ],
-            correctAnswer: "January"
+            correctAnswer: "B"
         },
-
         {
             question: "What month comes before March?",
             options: [
@@ -173,9 +158,8 @@ const examData = {
                 "January",
                 "May"
             ],
-            correctAnswer: "February"
+            correctAnswer: "A"
         },
-
         {
             question: "What color is the sky on a clear day?",
             options: [
@@ -184,9 +168,8 @@ const examData = {
                 "Red",
                 "Black"
             ],
-            correctAnswer: "Blue"
+            correctAnswer: "B"
         },
-
         {
             question: "What color is healthy grass?",
             options: [
@@ -195,9 +178,8 @@ const examData = {
                 "Green",
                 "Purple"
             ],
-            correctAnswer: "Green"
+            correctAnswer: "C"
         },
-
         {
             question: "What color is snow?",
             options: [
@@ -206,9 +188,8 @@ const examData = {
                 "Orange",
                 "Blue"
             ],
-            correctAnswer: "White"
+            correctAnswer: "B"
         },
-
         {
             question: "Which sentence correctly uses the word red?",
             options: [
@@ -217,9 +198,8 @@ const examData = {
                 "Red is a day of the week.",
                 "Red is my teacher."
             ],
-            correctAnswer: "I have a red apple."
+            correctAnswer: "B"
         },
-
         {
             question: "Which option contains five colors?",
             options: [
@@ -228,9 +208,8 @@ const examData = {
                 "One, Two, Three, Four, Five",
                 "Father, Mother, Brother, Sister, Baby"
             ],
-            correctAnswer: "Red, Blue, Green, Yellow, White"
+            correctAnswer: "B"
         },
-
         {
             question: "What does the word Father mean in Afaan Oromoo?",
             options: [
@@ -239,9 +218,8 @@ const examData = {
                 "Obboleessa",
                 "Obboleettii"
             ],
-            correctAnswer: "Abbaa"
+            correctAnswer: "B"
         },
-
         {
             question: "What is the English translation of \"Maatii koo\"?",
             options: [
@@ -250,9 +228,8 @@ const examData = {
                 "My teacher",
                 "My house"
             ],
-            correctAnswer: "My family"
+            correctAnswer: "A"
         },
-
         {
             question: "Complete the sentence: \"This is a _______.\"",
             options: [
@@ -261,9 +238,8 @@ const examData = {
                 "books",
                 "pens"
             ],
-            correctAnswer: "book"
+            correctAnswer: "B"
         },
-
         {
             question: "Complete the sentence: \"These are _______.\"",
             options: [
@@ -272,9 +248,8 @@ const examData = {
                 "books",
                 "an eraser"
             ],
-            correctAnswer: "books"
+            correctAnswer: "C"
         },
-
         {
             question: "Which list contains five classroom objects?",
             options: [
@@ -283,8 +258,7 @@ const examData = {
                 "Red, Blue, Green, Yellow, Black",
                 "January, February, March, April, May"
             ],
-            correctAnswer: "Pen, Pencil, Book, Desk, Eraser"
+            correctAnswer: "A"
         }
-
     ]
 };
