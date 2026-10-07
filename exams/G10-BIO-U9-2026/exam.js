@@ -1,7 +1,7 @@
 // @ts-nocheck
 
 const examData = {
-    examCode: "G10-BIO-U1-2026",
+    examCode: "G10-BIO-U9-2026",
     grade: "10",
     subject: "Biology",
     unit: "Unit 1",
